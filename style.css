@@ -1,0 +1,146 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  height: 50vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 25%;
+  margin: 300px auto;
+
+  padding: 30px;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 19%, 18%);
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+  margin-top: 40px;
+}
+
+.logo {
+  display: flex;
+}
+
+.star {
+  padding: 12px 16px;
+  padding-top: 15px;
+  border-radius: 50px;
+  background-color: rgba(18, 20, 23, 0.204);
+}
+
+.push {
+  margin-left: auto;
+}
+
+.num {
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(216, 12%, 8%, 0.204);
+  border-radius: 50px;
+  padding: 14px 20px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.num:focus {
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.num:hover {
+  color: #000;
+  transition: 0.3s ease-out;
+  transform: scale(1.1);
+  background-color: hsl(217, 12%, 63%);
+}
+
+input:hover {
+  transition: 0.3s ease-out;
+  transform: scale(1.1);
+  background-color: hsl(25, 100%, 39%);
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+}
+
+input {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: 3px;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.thankyoulogo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.rating {
+  margin: auto;
+  max-width: 60%;
+  margin-top: 30px;
+}
+
+.ratingText {
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  padding: 6px 18px;
+  background-color: hsla(217, 12%, 63%, 0.146);
+}
+
+.thankContent {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container.active {
+  display: none;
+}
