@@ -65,14 +65,18 @@ body {
 }
 
 .num:focus {
-  color: #fff;
+  color: #000;
   background-color: hsl(217, 12%, 63%);
+}
+
+.num.color:hover {
+  background-color: hsl(25, 97%, 53%);
 }
 
 .num:hover {
   color: #000;
   transform: scale(1.1);
-  background-color: hsl(25, 97%, 53%);
+  background-color: hsl(217, 12%, 63%);
 }
 
 input:hover {

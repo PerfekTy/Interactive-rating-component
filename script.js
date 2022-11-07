@@ -52,6 +52,7 @@ nums.forEach(e => {
         ifState();
         break;
     }
+    e.classList.toggle("color");
   });
 });
 
