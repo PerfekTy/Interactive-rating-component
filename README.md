@@ -1,6 +1,6 @@
 # Interactive-rating-component
 
-Live --->  
+Live --->  https://perfekty.github.io/Interactive-rating-component/
 
 Hello,
 there is my small project of Interactive-rating-component.
